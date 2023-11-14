@@ -1,6 +1,7 @@
 # wifi_router-MMTK
 
-    
+### bettercap -iface wlan0
+  
     
  
  net.probe on
