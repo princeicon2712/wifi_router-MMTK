@@ -53,3 +53,16 @@ As you can see is the same commands in order that you used previously.
 
 # hacking lave
 https://github.com/Samsar4/Ethical-Hacking-Labs/tree/master
+
+
+
+## Ettercap wifi admin penel
+
+ user:-
+
+ password:- 
+
+
+
+ettercap -Tq -M arp:remote -i wlan0 ///
+
