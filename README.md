@@ -15,7 +15,6 @@ bace64 decuder:- https://www.google.com/amp/s/amp.base64decode.org/
  
  set arp.spoof.targets 10.0.2.5
  
- arp.spoof on
  
  set net.sniff.local true
  
