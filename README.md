@@ -1,5 +1,8 @@
 # wifi_router-MMTK
 
+
+bace64 decuder:- https://www.google.com/amp/s/amp.base64decode.org/
+
 ### bettercap -iface wlan0
   
     
